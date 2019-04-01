@@ -4,12 +4,19 @@
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none}
-img {vertical-align: middle;}
-
-img { 
-width: 50%;
-	align-self: center;
+img {vertical-align: middle;
+	width: 50%;
 }
+
+body {
+  background-image: url("images/background.jpg");
+	background-repeat: no-repeat;
+  margin: 0 10%;
+  font-family: 'Gloria Hallelujah', serif;
+  text-align: center;
+	margin-top: 2cm;
+  }
+
 .slideshow-container {
   max-width: 1000px;
   position: relative;
