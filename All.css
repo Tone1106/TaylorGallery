@@ -44,3 +44,60 @@ h1 {
 margin-right: auto;
 	
 }
+a:visited {
+  color: #4AECD0;
+}
+
+a:hover {
+  color: #B71EF1;
+	background-color: #EFF36D;
+}
+
+a:active {
+  color: yellow;
+}
+
+
+div.gallery {
+  margin: 5px;
+  
+  float: left;
+  width: 220px;
+	background-color: whitesmoke;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+	height: auto;
+ 
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+	background-color: whitesmoke;
+}
+
+.color{
+	color:black;
+}
+
+ p.copyright {
+        position: absolute;
+        width: 100%;
+        color: #fff;
+        line-height: 10px;
+        font-size: 0.5em;
+        text-align: center;
+        bottom:0;
+    }
+footer {
+	height: 25px;
+        width: 100%;
+        background-color: #2e8a82;
+	position:fixed;bottom:0;
+    }

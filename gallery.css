@@ -13,8 +13,7 @@ body {
 h1 {
   text-align: center;
   font-family: 'Libre Baskerville', serif;
-  font-weight: normal;
-  text-transform: uppercase;
+  
   border-bottom: 1px solid white;
   margin-top: 30px;
 	color: white;
