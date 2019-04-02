@@ -4,7 +4,7 @@
 
 body {
   background-image: url("images/background.jpg");
-	background-repeat: no-repeat;
+	background-repeat: repeat;
   margin: 0 10%;
   font-family: 'Libre Baskerville', serif;
   text-align: center;
