@@ -2,7 +2,10 @@
 /* CSS Document */
 
 * {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
+body {font-family: Verdana, sans-serif; 
+	 background-image: url("images/background.jpg");
+	background-repeat: no-repeat;
+	margin:0;}
 .mySlides {display: none}
 img {vertical-align: middle;
 	width: 50%;
@@ -106,4 +109,18 @@ body {
 
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+}
+.nav{
+    background-color:#F0C71C;
+    height: 150px;
+    width: 100%;
+    }
+.nav-menu 
+{
+  list-style-type: none;
+  display: inline;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+ 
 }
