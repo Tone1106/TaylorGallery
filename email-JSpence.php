@@ -21,7 +21,7 @@ foreach($_POST as $key => $value) {
 	
 // function to check the referer for security reasons.
 // if using this on a different server, change to your domain name
-$allowed_host = 'webdev.seminolestate.edu';
+$allowed_host = 'https://tone1106.github.io/TaylorGallery/';
 $host = parse_url($_SERVER['HTTP_REFERER'], PHP_URL_HOST);
 
 if(substr($host, 0 - strlen($allowed_host)) == $allowed_host) {
